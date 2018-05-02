@@ -19,11 +19,6 @@ The way the pool works is simple:
    * If a block is not in use, it will simply be treated as containing the pointer to the next unused block (or nullptr if no blocks remain).
 
 ---
-Using the memory pool is easy: Just pass it your desired size, alignment, and the number of blocks you want it to store!
-To allocate a block, just make a call to Alloc(). 
-To free a block when it is no longer needed, just pass it on over to Free(). 
-
-Please see the example below:
 
 ```c++
 #include <iostream>
