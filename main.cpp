@@ -1,14 +1,12 @@
 #include <iostream>
 #include "MemoryPool.h"
 
-
 typedef struct
 {
   int i;
   char* c;
   double d;
 } S;
-
 
 int main()
 {
@@ -57,7 +55,6 @@ int main()
   std::cout << "S2->i: " << s2->i << std::endl;
   std::cout << "S2->c: " << s2->c << std::endl;
   std::cout << "S2->d: " << s2->d << std::endl;
-
 
   return 0;
 }
